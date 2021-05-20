@@ -22,7 +22,7 @@ header {
 }
 
 .icon-circle {
-  color: orange;
+  color: #f2784b;
   margin-right: 5px;
 }
 
@@ -31,7 +31,7 @@ header {
 }
 
 .nav-lists:hover {
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #f2784b;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -47,7 +47,7 @@ header {
 }
 
 .nav-icons:hover {
-  color: orange;
+  color: #f2784b;
 }
 
 .info-container {
@@ -63,15 +63,48 @@ header {
 
 .info-h6 {
   font-size: 30px;
+  margin-bottom: 3%;
 }
 
 .orange {
-  color: orange;
+  color: #f2784b;
 }
 
-.w-size {
-  width: 13%;
-  margin: 2% 1%;
+.info-btns {
+
+}
+
+.info-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-radius: 3px;
+}
+
+.hire-color {
+  border: 2px solid #f2784b;
+  background-color: #f2784b;
+  color: white;
+  margin: 1%;
+}
+
+.hire-color:hover {
+  text-decoration: none;
+  color: white;
+  border-color: #f5f5f5;
+}
+
+.down-color {
+  border: 2px solid  #f5f5f5;
+  background-color:  #f5f5f5;
+  color: black;
+  margin: 1%;
+}
+
+.down-color:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #f2784b;
 }
 
 .hire-icon {
@@ -79,7 +112,7 @@ header {
 }
 
 .my-info-container {
-  background-color: #292525;
+  background-color: #333333;
   border-radius: 7px;
   padding: 5%;
   margin: 5%;
@@ -114,14 +147,14 @@ header {
 }
 
 .icon-link.active {
-  background-color: orange;
+  background-color: #f2784b;
   color: white;
-  border-color: orange;
+  border-color: #f2784b;
 }
 
 .border {
-  border: 1px solid orange;
-  background-color: orange;
+  border: 1px solid #f2784b;
+  background-color: #f2784b;
   width: 3px;
   height: 70px;
 }
@@ -162,7 +195,7 @@ header {
 }
 
 .skill-percent {
-  background-color: orange;
+  background-color: #f2784b;
   height: 10px;
   margin-top: -1px;
   margin-left: -1px;
@@ -183,7 +216,7 @@ header {
 #services, #timeline {
   padding: 5%;
   text-align: center;
-  background-color: #d1d1d1;
+  background-color: #f5f5f5;
 }
 
 .section-title {
@@ -197,13 +230,13 @@ header {
 }
 
 .section-line {
-  border-top: 1.5px solid orange;
+  border-top: 1.5px solid #f2784b;
   width: 5%;
 }
 
 .section-icon {
-  border: 1px solid orange;
-  background-color: orange;
+  border: 1px solid #f2784b;
+  background-color: #f2784b;
   color: white;
   border-radius: 50%;
   padding: 5px;
@@ -225,7 +258,7 @@ header {
 }
 
 .service-col:hover {
-  background-color: orange;
+  background-color: #f2784b;
   color: white;
 }
 
@@ -242,49 +275,45 @@ header {
   text-align: center;
 }
 
-.portifolio-ul {
+#portifolio-ul {
   margin: 3% auto;
 }
 
 .portifolio-li {
   display: inline-block;
   margin: 15px 7px;
-}
-
-
-.portifolio-a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
   padding: 10px;
   border-radius: 3px;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+}
+
+.portifolio-li.act {
+  background-color: #f2784b;
+  color: white;
 }
 
 .portifolio-icon {
   margin-right: 7px;
 }
 
-.portifolio-a:hover {
-  background-color: orange;
-  color: white;
-  text-decoration: none;
-}
-
 .work-container {
   box-shadow: 0 0 10px grey;
   margin: 10px;
-  padding: 10px 10px 20px;
+  padding: 10px 10px 35px;
   border-radius: 5px;
 }
 
 .portifolio-img {
   width: 100%;
+  height: 180px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
 .work-name {
-  color: orange;
+  color: #f2784b;
   margin: 10px auto;
 }
 
@@ -293,12 +322,35 @@ header {
 }
 
 .project-info {
+  margin: 15px auto;
+}
 
+.demo-btn {
+  border: 3px solid #f2784b;
+  background-color: #f2784b;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 30px;
+  /* margin-top: 15px; */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.demo-btn:hover {
+  text-decoration: none;
+  color: white;
+  border-color: white;
 }
 
 .extra-container {
-  background-color: gray;
-  padding: 5%;
+  background-image: url("../images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.extra-bg-trans {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7% 5%;
 }
 
 .col-container {
@@ -308,7 +360,7 @@ header {
 
 .extra-icon {
   color: white;
-  background-color: orange;
+  background-color: #f2784b;
   padding: 20px;
   border-radius: 50%;
   margin: 10px auto;
@@ -334,8 +386,8 @@ header {
 }
 
 .timeline-year {
-  border: 1px solid orange;
-  background-color: orange;
+  border: 1px solid #f2784b;
+  background-color: #f2784b;
   color: white;
   border-radius: 3px;
   padding: 7px;
@@ -343,15 +395,15 @@ header {
 }
 
 .border-2 {
-  border: 1px solid orange;
-  background-color: orange;
+  border: 1px solid #f2784b;
+  background-color: #f2784b;
   width: 3px;
   height: 70px;
 }
 
 .border-3 {
-  border: 1px solid orange;
-  background-color: orange;
+  border: 1px solid #f2784b;
+  background-color: #f2784b;
   width: 3px;
   height: 180px;
   margin-top: -10px;
@@ -370,8 +422,8 @@ header {
 
 hr {
   border: none;
-  border-top: 2px solid orange;
-  background-color: orange;
+  border-top: 2px solid #f2784b;
+  background-color: #f2784b;
 }
 
 .edu-p {
@@ -379,13 +431,13 @@ hr {
 }
 
 .hire-me-now {
-  background-image: url("../images/me.jpeg");
+  background-image: url("../images/1500.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hire-trans {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 5%;
   text-align: center;
   color: white;
@@ -411,8 +463,8 @@ hr {
 
 .hire-link:hover {
   color: white;
-  background-color: orange;
-  border-color: orange;
+  background-color: #f2784b;
+  border-color: #f2784b;
   text-decoration: none;
 }
 
@@ -422,7 +474,7 @@ hr {
 }
 
 .gray-bg {
-  background-color: gray;
+  background-color: #333333;
   width: 100%;
   height: 150px;
   position: relative;
@@ -452,12 +504,16 @@ hr {
 
 .submit {
   color: white;
-  background-color: orange;
+  background-color: #f2784b;
   padding: 10px;
   margin: 10px;
   width: 30%;
-  border: 1px solid orange;
+  border: 3px solid #f2784b;
   border-radius: 3px;
+}
+
+.submit:hover {
+  border-color: white;
 }
 
 .row3 {
@@ -472,11 +528,12 @@ hr {
 .contact-icon {
   border: 1px solid grey;
   padding: 7px;
-  color: orange;
+  color: #f2784b;
+  width: 50px;
 }
 
 .contact-icon:hover {
-  background-color: orange;
+  background-color: #f2784b;
   color: white;
 }
 
@@ -487,8 +544,8 @@ hr {
 
 
 footer {
-  background-color: gray;
-  padding: 20px;
+  background-color: #333333;
+  padding: 20px 5%;
 }
 
 .space-between {
@@ -508,6 +565,6 @@ footer {
 }
 
 .social-icon:hover {
-  color: orange;
+  color: #f2784b;
   text-decoration: none;
 }

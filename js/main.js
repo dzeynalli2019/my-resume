@@ -16,11 +16,8 @@ tabs.addEventListener("click", function (e) {
 
 tabs.addEventListener("click", function (e) {
     let target = e.target;
-    console.log(target);
     let targetIndex = target.className[10];
-    console.log(targetIndex);
     let className = text.children[targetIndex - 1];
-    console.log(className);
     if (shownText) {
         if (shownText.length) {
             for (let el of shownText) {
@@ -37,7 +34,37 @@ function addNumberToTab() {
     for (let content of tabs.children) {
         content.classList.add(i);
         i++;
-        console.log(i + content);
     }
 }
 addNumberToTab();
+
+
+
+
+//---------------------------- portifolio -------------------------------
+
+const filtersTitlesContainer = document.getElementById('portifolio-ul');
+const projects = document.querySelectorAll('.work-container');
+
+filtersTitlesContainer.addEventListener('click', (e) => {
+    console.log(e.target.classList);
+    if (e.target.classList.contains('portifolio-li')) {
+        const title = e.target;
+        const type = title.dataset.filterby || "work-container";
+        const isActive = title.classList.contains('act');
+
+        if (!isActive) {
+            document.querySelector('.portifolio-li.act').classList.remove('act');
+            title.classList.add('act');
+
+            filterByClassName(projects,type);
+        }
+    }
+
+});
+
+function filterByClassName(elements, className) {
+    for (let element of elements) {
+        element.hidden = !element.classList.contains(className);
+    }
+}

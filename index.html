@@ -52,14 +52,14 @@
           </header>
 
           <div class="info-container">
-            <h1 class="info-h1">I am Durna Z. Zeynalli</h1>
-            <h6 class="info-h6">A Junior <span class="orange">Developer</span></h6>
-            <button type="button" name="button" class="btn btn-warning w-size">
-              <i class="fa fa-rocket hire-icon" aria-hidden="true"></i>Hire me
-            </button>
-            <button type="button" name="button" class="btn btn-light w-size">
+            <h1 class="info-h1">I am <span class="orange">Durna Z. Zeynalli</span></h1>
+            <h6 class="info-h6">A Junior Developer</h6>
+            <a href="tel:+994508674070" class="info-btn hire-color">
+              <i class="fa fa-address-book hire-icon " aria-hidden="true"></i>Hire me
+            </a>
+            <a href="pdf/DurnaZeynalli.pdf" target="_blank" download class="info-btn down-color">
               <i class="fa fa-download hire-icon" aria-hidden="true"></i>Download CV
-            </button>
+            </a>
           </div>
 
 
@@ -71,8 +71,10 @@
           <div id="change-icons">
             <h6 class="icon-link active">About me</h6>
             <h6 class="icon-link">My Skills</h6>
+            <h6 class="icon-link">My Certificates</h6>
             <h6 class="icon-link">Why me?</h6>
             <h6 class="icon-link">My Vision</h6>
+
 
           </div>
 
@@ -127,6 +129,21 @@
 
             <div class="change-infos hide">
               <div class="about-me">
+                <h3 class="tab-h3">My Certificates</h3>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                    <img class="about-img" src="images/iba.jpeg" alt="me">
+                  </div>
+                  <div class="col">
+                    <img class="about-img" src="images/udemy.jpg" alt="me">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="change-infos hide">
+              <div class="about-me">
                 <h3 class="tab-h3">why me?</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -165,29 +182,29 @@
       <div class="row justify-content-md-center">
         <div class="col col-lg-3 col-md-6 col-sm-12">
           <div class="service-col">
-            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-code fa-3x" aria-hidden="true"></i>
+            <h4 class="service-h4">Web Development</h4>
+            <p class="service-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex illum aut quos possimus necessitatibus soluta optio nulla modi maxime aperiam eligendi commodi,</p>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-6 col-sm-12">
+          <div class="service-col">
+            <i class="fa fa-wordpress fa-3x" aria-hidden="true"></i>
             <h4 class="service-h4">Web Design</h4>
             <p class="service-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex illum aut quos possimus necessitatibus soluta optio nulla modi maxime aperiam eligendi commodi,</p>
           </div>
         </div>
         <div class="col col-lg-3 col-md-6 col-sm-12">
           <div class="service-col">
-            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
-            <h4 class="service-h4">Web Design</h4>
+            <i class="fa fa-file-code-o fa-3x" aria-hidden="true"></i>
+            <h4 class="service-h4">Coding</h4>
             <p class="service-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex illum aut quos possimus necessitatibus soluta optio nulla modi maxime aperiam eligendi commodi,</p>
           </div>
         </div>
         <div class="col col-lg-3 col-md-6 col-sm-12">
           <div class="service-col">
-            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
-            <h4 class="service-h4">Web Design</h4>
-            <p class="service-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex illum aut quos possimus necessitatibus soluta optio nulla modi maxime aperiam eligendi commodi,</p>
-          </div>
-        </div>
-        <div class="col col-lg-3 col-md-6 col-sm-12">
-          <div class="service-col">
-            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
-            <h4 class="service-h4">Web Design</h4>
+            <i class="fa fa-language fa-3x" aria-hidden="true"></i>
+            <h4 class="service-h4">English</h4>
             <p class="service-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex illum aut quos possimus necessitatibus soluta optio nulla modi maxime aperiam eligendi commodi,</p>
           </div>
         </div>
@@ -205,78 +222,68 @@
       </div>
       <p class="section-p">Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c</p>
 
-      <ul class="portifolio-ul">
-        <li class="portifolio-li">
-          <a href="#" class="portifolio-a">
-            <i class="fa fa-briefcase portifolio-icon" aria-hidden="true"></i>All works
-          </a>
+      <ul id="portifolio-ul">
+        <li data-filterby class="portifolio-li act">
+          <i class="fa fa-list portifolio-icon" aria-hidden="true"></i>All works
         </li>
-        <li class="portifolio-li">
-          <a href="#" class="portifolio-a">
-            <i class="fa fa-briefcase portifolio-icon" aria-hidden="true"></i>web development
-          </a>
+        <li data-filterby="type1" class="portifolio-li">
+          <i class="fa fa-code portifolio-icon" aria-hidden="true"></i>web development
         </li>
-        <li class="portifolio-li">
-          <a href="#" class="portifolio-a">
-            <i class="fa fa-briefcase portifolio-icon" aria-hidden="true"></i>web design
-          </a>
+        <li data-filterby="type2" class="portifolio-li">
+          <i class="fa fa-paint-brush portifolio-icon" aria-hidden="true"></i>web design
         </li>
-        <li class="portifolio-li">
-          <a href="#" class="portifolio-a">
-            <i class="fa fa-briefcase portifolio-icon" aria-hidden="true"></i>compressive design
-          </a>
+        <li data-filterby="type3" class="portifolio-li">
+          <i class="fa fa-mobile portifolio-icon" aria-hidden="true"></i>compressive design
         </li>
-        <li class="portifolio-li">
-          <a href="#" class="portifolio-a">
-            <i class="fa fa-briefcase portifolio-icon" aria-hidden="true"></i>wordpress
-          </a>
+        <li data-filterby="type4" class="portifolio-li">
+          <i class="fa fa-wordpress portifolio-icon" aria-hidden="true"></i>wordpress
         </li>
       </ul>
 
       <div class="row">
         <div class="col col-lg-4 col-md-6 col-sm-12">
-          <div class="work-container">
-            <img class="portifolio-img" src="images/me.jpeg" alt="project img">
+          <div class="work-container type2">
+            <img class="portifolio-img" src="images/tindog.png" alt="project img">
             <h5 class="work-name">Web Design</h5>
-            <h6 class="project-name">Note App</h6>
-            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p>
-            <a href="#" target="_blank" class="btn btn-warning">demo</a>
+            <h6 class="project-name">Tindog</h6>
+            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p><br>
+            <a href="https://dzeynalli2019.github.io/Tindog/" target="_blank" class="demo-btn"><i class="fa fa-laptop" aria-hidden="true"></i> demo</a>
           </div>
         </div>
         <div class="col col-lg-4 col-md-6 col-sm-12">
-          <div class="work-container">
-            <img class="portifolio-img" src="images/me.jpeg" alt="project img">
-            <h5 class="work-name">Web Design</h5>
+          <div class="work-container type1">
+            <img class="portifolio-img" src="images/noteapp.png" alt="project img">
+            <h5 class="work-name">Web Development</h5>
             <h6 class="project-name">Note App</h6>
-            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p>
-            <a href="#" target="_blank" class="btn btn-warning">demo</a>
+            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p><br>
+            <a href="https://jovial-jennings-60b2a4.netlify.app" target="_blank" class="demo-btn"><i class="fa fa-laptop" aria-hidden="true"></i> demo</a>
           </div>
         </div>
         <div class="col col-lg-4 col-md-6 col-sm-12">
-          <div class="work-container">
-            <img class="portifolio-img" src="images/me.jpeg" alt="project img">
-            <h5 class="work-name">Web Design</h5>
-            <h6 class="project-name">Note App</h6>
-            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p>
-            <a href="#" target="_blank" class="btn btn-warning">demo</a>
+          <div class="work-container type4">
+            <img class="portifolio-img" src="images/bodyharmony.png" alt="project img">
+            <h5 class="work-name">Wordpress</h5>
+            <h6 class="project-name">Body Harmony</h6>
+            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p><br>
+            <a href="https://bodyharmony.az/" target="_blank" class="demo-btn"><i class="fa fa-laptop" aria-hidden="true"></i> demo</a>
           </div>
         </div>
         <div class="col col-lg-4 col-md-6 col-sm-12">
-          <div class="work-container">
-            <img class="portifolio-img" src="images/me.jpeg" alt="project img">
+          <div class="work-container type2">
+            <img class="portifolio-img" src="images/nef.png" alt="project img">
             <h5 class="work-name">Web Design</h5>
-            <h6 class="project-name">Note App</h6>
-            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p>
-            <a href="#" target="_blank" class="btn btn-warning">demo</a>
+            <h6 class="project-name">NEF Beginner</h6>
+            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p><br>
+            <a href="https://dzeynalli2019.github.io/nef-beginner/" target="_blank" class="demo-btn"><i class="fa fa-laptop" aria-hidden="true"></i> demo</a>
           </div>
         </div>
         <div class="col col-lg-4 col-md-6 col-sm-12">
-          <div class="work-container">
+          <div class="work-container type3">
             <img class="portifolio-img" src="images/me.jpeg" alt="project img">
             <h5 class="work-name">Web Design</h5>
             <h6 class="project-name">Note App</h6>
-            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p>
-            <a href="#" target="_blank" class="btn btn-warning">demo</a>
+            <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deserunt pariatur harum perferendis? Id iure repudiandae soluta ipsum cupiditate ullam dicta odio officia molestias numquam?</p><br>
+            <a href="#" target="_blank" class="demo-btn"><i class="fa fa-laptop" aria-hidden="true"></i> demo</a>
           </div>
         </div>
 
@@ -285,33 +292,35 @@
     </section>
 
     <section class="extra-container">
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-3 col-md-6 col-sm-12">
-          <div class="col-container">
-            <i class="fa fa-briefcase fa-2x extra-icon" aria-hidden="true"></i>
-            <h2 class="count">30+</h2>
-            <p class="title">Projects finished</p>
+      <div class="extra-bg-trans">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+            <div class="col-container">
+              <i class="fa fa-check-square-o fa-2x extra-icon" aria-hidden="true"></i>
+              <h2 class="count">30+</h2>
+              <p class="title">Projects finished</p>
+            </div>
           </div>
-        </div>
-        <div class="col col-lg-3 col-md-6 col-sm-12">
-          <div class="col-container">
-            <i class="fa fa-briefcase fa-2x extra-icon" aria-hidden="true"></i>
-            <h2 class="count">30+</h2>
-            <p class="title">happy client</p>
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+            <div class="col-container">
+              <i class="fa fa-users fa-2x extra-icon" aria-hidden="true"></i>
+              <h2 class="count">20+</h2>
+              <p class="title">happy client</p>
+            </div>
           </div>
-        </div>
-        <div class="col col-lg-3 col-md-6 col-sm-12">
-          <div class="col-container">
-            <i class="fa fa-briefcase fa-2x extra-icon" aria-hidden="true"></i>
-            <h2 class="count">30+</h2>
-            <p class="title">hours of work</p>
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+            <div class="col-container">
+              <i class="fa fa-clock-o fa-2x extra-icon" aria-hidden="true"></i>
+              <h2 class="count">100+</h2>
+              <p class="title">hours worked</p>
+            </div>
           </div>
-        </div>
-        <div class="col col-lg-3 col-md-6 col-sm-12">
-          <div class="col-container">
-            <i class="fa fa-briefcase fa-2x extra-icon" aria-hidden="true"></i>
-            <h2 class="count">30+</h2>
-            <p class="title">cups of coffee</p>
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+            <div class="col-container">
+              <i class="fa fa-coffee fa-2x extra-icon" aria-hidden="true"></i>
+              <h2 class="count">25+</h2>
+              <p class="title">cups of coffee</p>
+            </div>
           </div>
         </div>
       </div>
@@ -322,7 +331,7 @@
       <h2 class="section-title">work & education</h2>
       <div class="row2">
         <div class="section-line"></div>
-        <i class="fa fa-briefcase section-icon" aria-hidden="true"></i>
+        <i class="fa fa-clock-o section-icon" aria-hidden="true"></i>
         <div class="section-line"></div>
       </div>
       <p class="section-p">Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c</p>
@@ -400,7 +409,7 @@
       <div class="hire-trans">
         <h1 class="hire-title">I'm ready for your next project!</h1>
         <p class="hire-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe explicabo neque sit odit laboriosam deserunt quae impedit at minus reiciendis asperiores, natus facilis laudantium numquam. Harum cumque laudantium, doloribus veritatis.</p>
-        <a href="#" class="hire-link">hire me now</a>
+        <a href="tel:+994508674070" class="hire-link"><i class="fa fa-address-book" aria-hidden="true"></i> hire me now</a>
       </div>
     </section>
 
@@ -408,86 +417,82 @@
       <h2 class="section-title">contact me</h2>
       <div class="row2">
         <div class="section-line"></div>
-        <i class="fa fa-briefcase section-icon" aria-hidden="true"></i>
+        <i class="fa fa-address-book-o section-icon" aria-hidden="true"></i>
         <div class="section-line"></div>
       </div>
       <p class="section-p">Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c</p>
 
       <div class="gray-bg">
 
-      <div class="contact-form">
-        <div class="row  justify-content-md-center">
-          <div class="col col-lg-6 col-md col-sm">
-            <div class="form">
-              <div class="row">
-                <div class="col">
-                  <input class="form-input" type="text" name="fullname" placeholder="Fullname">
+        <div class="contact-form">
+          <div class="row  justify-content-md-center">
+            <div class="col col-lg-6 col-md col-sm">
+              <div class="form">
+                <div class="row">
+                  <div class="col">
+                    <input class="form-input" type="text" name="fullname" placeholder="Fullname">
+                  </div>
+                  <div class="col">
+                    <input class="form-input" type="email" name="email" placeholder="Email">
+                  </div>
                 </div>
-                <div class="col">
-                  <input class="form-input" type="email" name="email" placeholder="Email">
-                </div>
+                <br>
+                <textarea class="form-input" name="name" rows="8" cols="80" placeholder="Type your message here"></textarea>
+                <button type="button" name="button" class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
               </div>
-              <br>
-              <textarea class="form-input" name="name" rows="8" cols="80" placeholder="Type your message here"></textarea>
-              <button type="button" name="button" class="submit">Submit</button>
             </div>
-          </div>
 
-          <div class="col col-lg-6 col-md col-sm">
-            <div class="form">
-              <div class="row3">
-                <div class="contact-col">
-                  <i class="fa fa-briefcase fa-2x contact-icon" aria-hidden="true"></i>
+            <div class="col col-lg-6 col-md col-sm">
+              <div class="form">
+                <div class="row3">
+                  <div class="contact-col">
+                    <i class="fa fa-phone fa-2x contact-icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="contact-col">
+                    <h6>Phone</h6>
+                    <a class="contact-links" href="tel:+994508674070">(+994) 50 867 40 70</a><br>
+                    <a class="contact-links" href="tel:+994125630928">(+994) 12 563 09 28</a>
+                  </div>
                 </div>
-                <div class="contact-col">
-                  <h6>Phone</h6>
-                  <a class="contact-links" href="#">(+994) 50 867 40 70</a><br>
-                  <a class="contact-links" href="#">(+994) 12 563 09 28</a>
+
+                <div class="row3">
+                  <div class="contact-col">
+                    <i class="fa fa-envelope fa-2x contact-icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="contact-col">
+                    <h6>Email Address</h6>
+                    <a class="contact-links" href="mailto:durnazeynalli@gmail.com">durnazeynalli@gmail.com</a><br>
+                    <a class="contact-links" href="mailto:dzeynalli2019@ada.edu.az">dzeynalli2019@ada.edu.az</a>
+                  </div>
                 </div>
+
+                <div class="row3">
+                  <div class="contact-col">
+                    <i class="fa fa-map-marker fa-2x contact-icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="contact-col">
+                    <h6>My Location</h6>
+                    <a class="contact-links" target="_blank" href="https://www.google.com/maps/place/7th+Micro+Region,+Baku,+Azerbaijan/@40.430762,49.8512641,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x40308873ac08d103:0x4e1df1002ddd4736!2s24+Abay+Kunanbayev+St,+Baku,+Azerbaijan!3b1!8m2!3d40.4305572!4d49.8509889!3m4!1s0x40308872f095bff5:0xa749fb74426b9177!8m2!3d40.430762!4d49.8525786">Abay Kunanbayev, 24, Baku, Azerbaijan</a> <br>
+                    <a class="contact-links" target="_blank" href="https://www.google.com/maps/place/Nakhchivan,+Azerbaijan/@39.2016268,45.4217325,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x40142df8f85354f9:0xb1c60b3c8dfe2e87!2sAziz+Aliyev+Rd,+Nakhchivan,+Azerbaijan!3b1!8m2!3d39.2099383!4d45.4225668!3m4!1s0x40142de310f6d755:0xa75022c9711fc99e!8m2!3d39.2015468!4d45.4235096">Aziz Aliyev st., Nakhchivan, Azerbaijan</a>
+                  </div>
+                </div>
+
               </div>
-
-              <div class="row3">
-                <div class="contact-col">
-                  <i class="fa fa-briefcase fa-2x contact-icon" aria-hidden="true"></i>
-                </div>
-                <div class="contact-col">
-                  <h6>Email Address</h6>
-                  <a class="contact-links" href="#">durnazeynalli@gmail.com</a><br>
-                  <a class="contact-links" href="#">dzeynalli2019@ada.edu.az</a>
-                </div>
-              </div>
-
-              <div class="row3">
-                <div class="contact-col">
-                  <i class="fa fa-briefcase fa-2x contact-icon" aria-hidden="true"></i>
-                </div>
-                <div class="contact-col">
-                  <h6>My Location</h6>
-                  <a class="contact-links" href="#">Abay Kunanbayev, 24, Baku, Azerbaijan</a> <br>
-                  <a class="contact-links" href="#">Aziz Aliyev st., Nakhchivan, Azerbaijan</a>
-                </div>
-              </div>
-
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
-
-
-      </div>
-
-
     </section>
 
     <footer>
       <div class="row3 space-between">
         <h6 class="footer-p">&copy; Copyright 2021 Durna Z. Zeynalli</h6>
         <div class="footer-socials">
-          <a href="#" class="social-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
-          <a href="#" class="social-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
-          <a href="#" class="social-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
-          <a href="#" class="social-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100007533940240" target="_blank" class="social-icon"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/durnazeynalli" target="_blank" class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/durna-zeynalli-027b4b1a2/" target="_blank" class="social-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/miss.zeynalli/" target="_blank" class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
       </div>
     </footer>
