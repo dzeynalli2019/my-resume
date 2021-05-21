@@ -44,13 +44,13 @@ addNumberToTab();
 //---------------------------- portifolio -------------------------------
 
 const filtersTitlesContainer = document.getElementById('portifolio-ul');
-const projects = document.querySelectorAll('.work-container');
+const projects = document.querySelectorAll('.col');
 
 filtersTitlesContainer.addEventListener('click', (e) => {
     console.log(e.target.classList);
     if (e.target.classList.contains('portifolio-li')) {
         const title = e.target;
-        const type = title.dataset.filterby || "work-container";
+        const type = title.dataset.filterby || "col";
         const isActive = title.classList.contains('act');
 
         if (!isActive) {
