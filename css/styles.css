@@ -348,19 +348,37 @@ header {
 }
 
 .demo-btn {
-  border: 3px solid #f2784b;
-  background-color: #f2784b;
-  color: white;
   border-radius: 3px;
-  padding: 10px 30px;
-  /* margin-top: 15px; */
+  padding: 7px 20px;
+  margin: 0 7px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .demo-btn:hover {
   text-decoration: none;
+}
+
+.demos {
+  border: 3px solid #f2784b;
+  background-color: #f2784b;
   color: white;
+}
+
+.demos:hover {
+  color: white;
+  border-color: white;
+}
+
+.codes {
+  border: 3px solid #f2784b;
+  background-color: white;
+  color: #f2784b;
+}
+
+.codes:hover {
+  color: white;
+  background-color: #f2784b;
   border-color: white;
 }
 
